@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour{
 
        public AudioSource jumpSound;
        public AudioSource crouchSound;
-       public AudioSource bgmSound;
        public AudioClip clip;
        public float bgmVolume= 0.5f;
 
@@ -22,10 +21,6 @@ public class PlayerMovement : MonoBehaviour{
        bool jump = false;
 
        bool crouch = false;
-
-       void Start(){
-        bgmSound.PlayOneShot(bgmSound.clip, bgmVolume);
-       }
 
         // Update is called once per frame
        void Update(){

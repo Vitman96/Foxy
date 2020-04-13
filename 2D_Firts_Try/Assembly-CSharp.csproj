@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioMangager.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\cherry_colider.cs" />
      <Compile Include="Assets\Scripts\coin_script.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />
      <Compile Include="Assets\Scripts\ScoreTextScribt.cs" />
+     <Compile Include="Assets\Scripts\SwitchMusic.cs" />
      <Compile Include="Assets\Zero Rare\Retro Sound Effects\Demo\Demo.cs" />
  <Reference Include="Cinemachine">
  <HintPath>D:/Vithu_Doku/Game/GameTry/2D_First_try/Foxy/2D_Firts_Try/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
