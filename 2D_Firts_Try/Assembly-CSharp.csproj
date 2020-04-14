@@ -57,7 +57,9 @@
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\cherry_colider.cs" />
      <Compile Include="Assets\Scripts\coin_script.cs" />
+     <Compile Include="Assets\Scripts\gumCollider.cs" />
      <Compile Include="Assets\Scripts\load_next_scene.cs" />
+     <Compile Include="Assets\Scripts\objectHitSound.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />
      <Compile Include="Assets\Scripts\ScoreTextScribt.cs" />

@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour{
 
        public AudioSource jumpSound;
        public AudioSource crouchSound;
-       public AudioClip clip;
+ 
        public float bgmVolume= 0.5f;
 
        public Animator animator;

@@ -5,7 +5,6 @@ using UnityEngine;
 public class cherry_colider : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip clip;
     
      void OnTriggerEnter2D(Collider2D col)
     {

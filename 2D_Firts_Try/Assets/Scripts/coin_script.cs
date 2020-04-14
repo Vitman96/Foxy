@@ -6,7 +6,7 @@ public class coin_script : MonoBehaviour
 {
   
     public AudioSource audioSource;
-    public AudioClip clip;
+
 
     void OnTriggerEnter2D(Collider2D col)
     {
