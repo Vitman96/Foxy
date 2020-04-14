@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\cherry_colider.cs" />
      <Compile Include="Assets\Scripts\coin_script.cs" />
+     <Compile Include="Assets\Scripts\EnemyGFX.cs" />
+     <Compile Include="Assets\Scripts\enemytHitSound.cs" />
      <Compile Include="Assets\Scripts\gumCollider.cs" />
      <Compile Include="Assets\Scripts\load_next_scene.cs" />
      <Compile Include="Assets\Scripts\objectHitSound.cs" />
@@ -286,6 +288,9 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Programme/UnityEdiotor_PATH/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>D:/Vithu_Doku/Game/GameTry/2D_First_try/Foxy/2D_Firts_Try/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>D:/Vithu_Doku/Game/GameTry/2D_First_try/Foxy/2D_Firts_Try/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
@@ -635,6 +640,14 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>D:/Programme/UnityEdiotor_PATH/2018.4.21f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{5255A642-6BCC-CCC1-3FC4-D3E01BCC18D9}</Project>      <Name>AstarPathfindingProject</Name>    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{8B351051-4022-E1B2-6005-ADC58ECA0D44}</Project>      <Name>PackageToolsEditor</Name>    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{D2F269D8-12E7-F955-22B3-B271EDEBAC79}</Project>      <Name>AstarPathfindingProjectEditor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
