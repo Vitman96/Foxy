@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class load_current_scene : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D col){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name); 
     }
 }

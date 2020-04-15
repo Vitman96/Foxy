@@ -16,7 +16,7 @@ public class enemytHitSound : MonoBehaviour
 
             audioSource.PlayOneShot(audioSource.clip);
         }
-        //animator.SetBool("isHurt",false); 
+        
     }
 
    private void SetBoolBack()

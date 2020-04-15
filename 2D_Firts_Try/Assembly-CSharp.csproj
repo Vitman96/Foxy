@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\gumCollider.cs" />
      <Compile Include="Assets\Scripts\load_current_scene.cs" />
      <Compile Include="Assets\Scripts\load_next_scene.cs" />
+     <Compile Include="Assets\Scripts\movingPanel.cs" />
      <Compile Include="Assets\Scripts\objectHitSound.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />
