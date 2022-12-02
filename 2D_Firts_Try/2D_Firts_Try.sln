@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{720EF045-265F-2DBC-AEEE-EA7542281BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{D2F269D8-12E7-F955-22B3-B271EDEBAC79}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{8B351051-4022-E1B2-6005-ADC58ECA0D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{D2F269D8-12E7-F955-22B3-B271EDEBAC79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,19 +23,16 @@ Global
 		{720EF045-265F-2DBC-AEEE-EA7542281BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720EF045-265F-2DBC-AEEE-EA7542281BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{720EF045-265F-2DBC-AEEE-EA7542281BDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B351051-4022-E1B2-6005-ADC58ECA0D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B351051-4022-E1B2-6005-ADC58ECA0D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B351051-4022-E1B2-6005-ADC58ECA0D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B351051-4022-E1B2-6005-ADC58ECA0D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F269D8-12E7-F955-22B3-B271EDEBAC79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
